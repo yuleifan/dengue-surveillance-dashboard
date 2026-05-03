@@ -22,26 +22,29 @@ An interactive web application for visualizing dengue infection indicators (Forc
 - **Styling**: Custom CSS (no Tailwind)
 
 ## Project Structure
+
+```
 src/
 ├─ lib/
-│ ├─ stores/
-│ │ └─ appState.svelte.ts # Global reactive state (Svelte 5 runes)
-│ ├─ data/
-│ │ ├─ exerciseData.json # Provided dataset
-│ │ ├─ exerciseMetadata.json # Provided metadata
-│ │ └─ dataStore.ts # Imports and exports raw data
-│ ├─ types/ # TypeScript type definitions
-│ │ └─ types.ts
-│ ├─ components/
-│ │ ├─ Controls.svelte # Country & indicator selectors
-│ │ └─ DynamicTable.svelte # Dynamic table (age groups or regions)
-│ └─ charts/
-│ ├─ AgeChart.svelte # Line chart with SD ribbon
-│ ├─ ForceHeatmap.svelte # Horizontal red heatmap
-│ └─ SeroprevalenceChart.svelte # Pie chart
-├─ App.svelte # Main layout (grid, conditional rendering)
+│  ├─ stores/
+│  │  └─ appState.svelte.ts       # Global reactive state (Svelte 5 runes)
+│  ├─ data/
+│  │  ├─ exerciseData.json        # Provided dataset
+│  │  ├─ exerciseMetadata.json    # Provided metadata
+│  │  └─ dataStore.ts             # Imports and exports raw data
+│  ├─ types/
+│  │  └─ types.ts                 # TypeScript type definitions
+│  ├─ components/
+│  │  ├─ Controls.svelte          # Country & indicator selectors
+│  │  └─ DynamicTable.svelte      # Dynamic table (age groups or regions)
+│  └─ charts/
+│     ├─ AgeChart.svelte          # Line chart with SD ribbon
+│     ├─ ForceHeatmap.svelte      # Horizontal red heatmap
+│     └─ SeroprevalenceChart.svelte # Pie chart
+├─ App.svelte                     # Main layout (grid, conditional rendering)
 ├─ main.ts
 └─ app.css
+```
 
 
 ## Getting Started
