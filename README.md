@@ -55,7 +55,7 @@ src/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/dengue-surveillance-dashboard.git
+   git clone https://github.com/yuleifan/dengue-surveillance-dashboard.git
    cd dengue-surveillance-dashboard
 
 2. Install dependencies:
@@ -65,5 +65,3 @@ src/
     npm run dev
 
 4. Open your browser at http://localhost:5173.
-
-5. 
