@@ -68,3 +68,21 @@ src/
     npm run dev
 
 4. Open your browser at http://localhost:5173.
+
+## Screenshots
+
+### 1. Hospital Admissions (Age Profile)
+*Line chart showing mean hospital admissions per 100,000 population by age group, with standard deviation as shaded ribbon.*
+
+![Hospital Admissions](./p1.png)
+
+### 2. Seroprevalence at Age 9
+*Pie chart displaying the proportion of 9‑year‑olds exposed to dengue in different regions (AGO).*
+
+![Seroprevalence at Age 9](./p2.png)
+
+### 3. Force of Infection
+*Horizontal heatmap of annual per‑capita infection risk across regions; colour intensity increases with risk.*
+**Interactive:** Click any row in the adjacent table to highlight the corresponding bar in the heatmap.*
+
+![Force of Infection](./p3.png)
