@@ -77,7 +77,8 @@ src/
 ![Hospital Admissions](./p1.png)
 
 ### 2. Seroprevalence at Age 9
-*Pie chart displaying the proportion of 9‑year‑olds exposed to dengue in different regions (AGO).*
+*ie chart displaying the proportion of 9‑year‑olds exposed to dengue in different regions (AGO).  
+**Future enhancement:** The pie chart will be replaced with a 2D/3D geographical region map for better spatial insight.*
 
 ![Seroprevalence at Age 9](./p2.png)
 
