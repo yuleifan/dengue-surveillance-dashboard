@@ -80,12 +80,14 @@ src/
 
 ### 2. Seroprevalence at Age 9
 *ie chart displaying the proportion of 9‑year‑olds exposed to dengue in different regions (AGO).  
+
 **Future enhancement:** The pie chart will be replaced with a 2D/3D geographical region map for better spatial insight.*
 
 ![Seroprevalence at Age 9](./p2.png)
 
 ### 3. Force of Infection
-*Horizontal heatmap of annual per‑capita infection risk across regions; colour intensity increases with risk.*
+*Horizontal heatmap of annual per‑capita infection risk across regions; colour intensity increases with risk.*  
+
 **Interactive:** Click any row in the adjacent table to highlight the corresponding bar in the heatmap.*
 
 ![Force of Infection](./p3.png)
