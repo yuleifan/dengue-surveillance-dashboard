@@ -62,12 +62,14 @@ src/
    cd dengue-surveillance-dashboard
 
 2. Install dependencies:
+   ```bash
     npm install
 
-3. Start the development server:
+4. Start the development server:
+   ```bash
     npm run dev
 
-4. Open your browser at http://localhost:5173.
+6. Open your browser at http://localhost:5173.
 
 ## Screenshots
 
